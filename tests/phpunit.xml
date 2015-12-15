@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./bootstrap.php" colors="true" verbose="true">
+
+    <testsuite name='COMMON_TESTS'>
+        <directory suffix='.php'>./</directory>
+    </testsuite>
+
+    <logging>
+        <log type="coverage-html" target="log/report" charset="UTF-8"
+            highlight="false" lowUpperBound="35" highLowerBound="70" />
+        <log type="junit" target="log/log.xml" charset="UTF-8" yui="true"
+            highlight="true" lowUpperBound="50" highLowerBound="80" />
+        <log type="json" target="log/logfile.json" />
+        <log type="tap" target="log/logfile.tap" />
+        <log type="testdox-html" target="log/testdox.html" />
+        <log type="testdox-text" target="log/testdox.txt" />
+    </logging>
+</phpunit>

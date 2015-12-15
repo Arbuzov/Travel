@@ -1,0 +1,9 @@
+Section: misc
+Priority: optional
+Package: travel-php-lib
+Version: 0.1.0+#build
+Description: Library to help travellers
+ Package for to help travellers
+Maintainer: Arbuzov <info@whitediver.com>
+Architecture: all
+Depends: php5
